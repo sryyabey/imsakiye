@@ -9,7 +9,7 @@
 
                 <div class="card-body">
                     <div class="col-md-12">
-                        <h1 class="text-center">Reklam alanı</h1>
+                        <!-- reklam alanı -->
                     </div>
                     <hr>
                     @if(session('status'))

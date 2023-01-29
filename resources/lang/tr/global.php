@@ -329,6 +329,10 @@ return [
         'ogle'  => 'Öğle',
         'ikindi'=> 'İkindi',
         'aksam' => 'Akşam',
-        'yatsi' => 'Yatsı'
+        'yatsi' => 'Yatsı',
+        'ne'    => 'Nedir Nasıl Kullanılır',
+        'uygulama' => 'imsakiye uygulaması kolayca namaz vakitlerini almak , listelemek ve indirmek için geliştirilmiş basit bir uygulamadır , matbaacılar , tasarımcılar ve tüm kullanıcılar için .',
+        'kullanim' => 'Kullanım',
+        'kullanim_yazi' => 'Kullanımı son derece basittir hızlıca giriş yaparak ulke il ve ilçe seçimi ile istenilen başlanğıç tarihini belirle , kaç günlük namaz vakti listesi olduğunu yaz işte bu kadar .'
     ],
 ];

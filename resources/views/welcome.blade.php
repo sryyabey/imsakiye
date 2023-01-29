@@ -119,11 +119,14 @@
                 </ul>
             </nav>
             <!-- Page Content -->
+            <div class="content">
+                <!-- reklam alanı -->
+            </div>
             <main class="content pt2 pb2">
-                <h2>What Is . How To Use</h2>
-                <p>Imsakiye application is a simple application developed to easily retrieve , list and download prayer times , for printers , designers and all users .</p>
-                <p>Kullanım</p>
-                <p>It is very simple to use, quickly log in, select the country, province and district, and determine the desired start date, write down how many daily prayer times there are, and that's it.</p>
+                <h2>{{ trans('global.web.ne') }}</h2>
+                <p>{{ trans('global.web.uygulama') }}</p>
+                <p>{{ trans('global.web.kullanim') }}</p>
+                <p>{{ trans('global.web.kullanim_yazi') }}</p>
             </main>
                         <!-- Footer -->
 

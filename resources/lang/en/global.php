@@ -329,6 +329,10 @@ return [
         'ogle'  => 'Noon',
         'ikindi'=> 'Afternoon',
         'aksam' => 'Evening',
-        'yatsi' => 'Isha'
+        'yatsi' => 'Isha',
+        'ne'    => 'what is it how to use',
+        'uygulama' => 'imsakiye application is a simple application developed to easily retrieve , list and download prayer times , for printers , designers and all users .',
+        'kullanim' => 'Usage',
+        'kullanim_yazi' => 'It is very simple to use, quickly log in, select the country, province and district, and determine the desired start date, write down how many daily prayer times there are, and thats it.'
     ],
 ];
