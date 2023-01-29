@@ -322,4 +322,13 @@ return [
     'leave'                          => 'Çık',
     'calendar'                       => 'Takvim',
     'messenger'                      => 'Mesaj Gönderici',
+    'web'                            =>[
+        'tarih' => 'Tarih',
+        'imsak' => 'Imsak',
+        'gunes' => 'Güneş',
+        'ogle'  => 'Öğle',
+        'ikindi'=> 'İkindi',
+        'aksam' => 'Akşam',
+        'yatsi' => 'Yatsı'
+    ],
 ];

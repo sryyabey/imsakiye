@@ -322,4 +322,13 @@ return [
     'leave'                          => 'Leave',
     'calendar'                       => 'Calendar',
     'messenger'                      => 'Messenger',
+    'web'                            =>[
+        'tarih' => 'Date',
+        'imsak' => 'Imsak',
+        'gunes' => 'Sunrise',
+        'ogle'  => 'Noon',
+        'ikindi'=> 'Afternoon',
+        'aksam' => 'Evening',
+        'yatsi' => 'Isha'
+    ],
 ];

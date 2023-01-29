@@ -68,13 +68,25 @@
                                 </li>
                             @endif
                         @else
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-toggle="dropdown" href="#">
+                                {{ strtoupper(app()->getLocale()) }}
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                @foreach(config('panel.available_languages') as $langLocale => $langName)
+                                    <a class="dropdown-item" href="{{ url()->current() }}?change_language={{ $langLocale }}">{{ strtoupper($langLocale) }} ({{ $langName }})</a>
+                                @endforeach
+                            </div>
+
+                        </li>
+
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-
+                                    {{--
                                     <a class="dropdown-item" href="{{ route('frontend.profile.index') }}">{{ __('My profile') }}</a>
 
                                     @can('user_management_access')
@@ -102,7 +114,7 @@
                                             {{ trans('cruds.userAlert.title') }}
                                         </a>
                                     @endcan
-
+--}}
                                     <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
@@ -113,6 +125,7 @@
                                     </form>
                                 </div>
                             </li>
+
                         @endguest
                     </ul>
                 </div>

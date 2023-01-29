@@ -8,6 +8,10 @@
                 <div class="card-header">{{ __('İmsakiye Generator') }}</div>
 
                 <div class="card-body">
+                    <div class="col-md-12">
+                        <h1 class="text-center">Reklam alanı</h1>
+                    </div>
+                    <hr>
                     @if(session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
@@ -61,13 +65,13 @@
                         <table class="table table-striped" id="imsakiyeTable" >
                             <thead>
                             <tr>
-                                <td>Tarih</td>
-                                <td>İmsak</td>
-                                <td>Güneş</td>
-                                <td>Öğle</td>
-                                <td>İkindi</td>
-                                <td>Akşam</td>
-                                <td>Yatsı</td>
+                                <td>{{ trans('global.web.tarih') }}</td>
+                                <td>{{ trans('global.web.imsak') }}</td>
+                                <td>{{ trans('global.web.gunes') }}</td>
+                                <td>{{ trans('global.web.ogle') }}</td>
+                                <td>{{ trans('global.web.ikindi') }}</td>
+                                <td>{{ trans('global.web.aksam') }}</td>
+                                <td>{{ trans('global.web.yatsi') }}</td>
                             </tr>
                             </thead>
                             <tbody id=tableCl>
