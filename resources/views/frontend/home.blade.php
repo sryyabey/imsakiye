@@ -172,6 +172,20 @@ $('#gun').change(function(){
             $.each(times,function(i,v){
                 $('#tableCl').append('<tr><td>'+i+'</td><td>'+v[0]+'</td><td>'+v[1]+'</td><td>'+v[2]+'</td><td>'+v[3]+'</td><td>'+v[4]+'</td><td>'+v[5]+'</td></tr>');
             })
+
+            $('#imsakiyeTable').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+            'colvis','copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+        aLengthMenu: [
+        [25, 50, 100, 200, -1],
+        [25, 50, 100, 200, "All"]
+    ],
+    iDisplayLength: -1
+    });
+
+
         }
     });
 
