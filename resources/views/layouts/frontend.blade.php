@@ -184,5 +184,6 @@
 <script src="{{ asset('js/main.js') }}"></script>
 <script src="{{ asset('js/salah.js') }}"></script>
 @yield('scripts')
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3310586476745596"
+     crossorigin="anonymous"></script>
 </html>
