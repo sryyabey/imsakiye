@@ -134,6 +134,9 @@
 
     </div>
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3310586476745596"
+     crossorigin="anonymous"></script>
+
     </body>
 </html>
 
