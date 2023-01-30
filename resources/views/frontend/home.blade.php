@@ -180,7 +180,7 @@ $('#gun').change(function(){
             $('#imsakiyeTable').DataTable({
         dom: 'Bfrtip',
         buttons: [
-            'colvis','copy', 'csv', 'excel', 'pdf', 'print'
+            'colvis','copy', 'csv', 'excel', 'pdfHtml5', 'print'
         ],
         aLengthMenu: [
         [25, 50, 100, 200, -1],
