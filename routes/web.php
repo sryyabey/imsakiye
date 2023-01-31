@@ -4,8 +4,8 @@ Route::view('/', 'welcome');
 Route::get('userVerification/{token}', 'UserVerificationController@approve')->name('userVerification');
 Auth::routes();
 
-Route::get('facebook-redirect', 'SocialAuthController@facebookRedirect')->name('facebook-redirect');
-Route::get('facebook-callback', 'SocialAuthController@facebookCallback')->name('facebook-callback');
+Route::get('facebook-redirect', 'SocialAuthController@facebook_redirect')->name('facebook-redirect');
+Route::get('facebook-callback', 'SocialAuthController@facebook_callback')->name('facebook-callback');
 
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => ['auth', '2fa', 'admin']], function () {
