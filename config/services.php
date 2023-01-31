@@ -31,9 +31,9 @@ return [
     ],
 
     'facebook' => [
-        'client_id' => '1186446041985272',
-        'client_secret' => '5d214fd8b09a9103d16f091dac674a04',
-        'redirect' => 'https://imsakiye.app/facebook-callback',
+        'client_id'     => env('FACEBOOK_CLIENT_ID'),
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        'redirect'      => env('FACEBOOK_CALLBACK_URL'),
     ],
 
 
