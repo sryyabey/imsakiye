@@ -30,4 +30,11 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'facebook' => [
+        'client_id' => '1186446041985272',
+        'client_secret' => '5d214fd8b09a9103d16f091dac674a04',
+        'redirect' => 'https://imsakiye.app/facebook-callback',
+    ],
+
+
 ];

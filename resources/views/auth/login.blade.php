@@ -61,6 +61,14 @@
                 </div>
             </form>
 
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="{{ route('facebook-redirect') }}" class="btn btn-primary btn-sm">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
 
             @if(Route::has('password.request'))
                 <p class="mb-1">
