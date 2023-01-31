@@ -7,6 +7,9 @@ Auth::routes();
 Route::get('facebook-redirect', 'SocialAuthController@facebook_redirect')->name('facebook-redirect');
 Route::get('facebook-callback', 'SocialAuthController@facebook_callback')->name('facebook-callback');
 
+Route::get('privacy', 'SozlesmelerController@privacy')->name('privacy');
+Route::get('term', 'SozlesmelerController@term')->name('term');
+
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => ['auth', '2fa', 'admin']], function () {
     Route::get('/', 'HomeController@index')->name('home');
