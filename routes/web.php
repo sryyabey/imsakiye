@@ -9,6 +9,7 @@ Route::get('facebook-callback', 'SocialAuthController@facebook_callback')->name(
 
 Route::get('privacy', 'SozlesmelerController@privacy')->name('privacy');
 Route::get('term', 'SozlesmelerController@term')->name('term');
+Route::get('imsakiye', 'ImsakiyeController@imsakiye')->name('imsakiye');
 
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => ['auth', '2fa', 'admin']], function () {

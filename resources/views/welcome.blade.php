@@ -113,7 +113,7 @@
             <nav class="navigation border--bottom pt1">
                 <ul class="no-bullets list--inline pb1 bold">
                     <li class="small mr2"><a class="link link--text current" href="#">WIHTU</a></li>
-                    <li class="small mr2"><a class="link link--text" href="#">---</a></li>
+                    <li class="small mr2"><a class="link link--text" href="{{ route('imsakiye') }}"> Imsakiye</a></li>
                     <li class="small mr2"><a class="link link--text" href="{{ route('register') }}">{{ trans('global.register') }}</a></li>
                     <li class="small"><a class="link link--text" href="{{ route('login') }}">{{ trans('global.login') }}</a></li>
                 </ul>
