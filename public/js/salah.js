@@ -90,7 +90,7 @@ $( document ).ready(function() {
                 $('#imsakiyeTable').DataTable({
             dom: 'Bfrtip',
             buttons: [
-                'colvis','copyHtml5', 'csv', 'excelHtml5', 'pdfHtml5', 'print'
+                'colvis','copyHtml5', 'csv', 'excelHtml5', 'print'
             ],
             aLengthMenu: [
             [25, 50, 100, 200, -1],
